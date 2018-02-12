@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77D760E9203157830048EC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D760E8203157830048EC9F /* AppDelegate.swift */; };
+		77D760EE203157830048EC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D760EC203157830048EC9F /* Main.storyboard */; };
+		77D760F0203157830048EC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D760EF203157830048EC9F /* Assets.xcassets */; };
+		77D760F3203157830048EC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D760F1203157830048EC9F /* LaunchScreen.storyboard */; };
+		77D760FE203157830048EC9F /* primeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D760FD203157830048EC9F /* primeCounterTests.swift */; };
+		77D7610920319B6B0048EC9F /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D7610820319B6B0048EC9F /* ConfigurationViewController.swift */; };
+		77D7610B2031A0560048EC9F /* PrimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D7610A2031A0560048EC9F /* PrimeCounter.swift */; };
+		77D7610D2031DC0B0048EC9F /* ComputeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D7610C2031DC0B0048EC9F /* ComputeOperation.swift */; };
+		77D7610F2031E6030048EC9F /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D7610E2031E6030048EC9F /* ResultTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77D760FA203157830048EC9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D760DD203157820048EC9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D760E4203157830048EC9F;
+			remoteInfo = primeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77D760E5203157830048EC9F /* primeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = primeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D760E8203157830048EC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77D760ED203157830048EC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77D760EF203157830048EC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77D760F2203157830048EC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77D760F4203157830048EC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D760F9203157830048EC9F /* primeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D760FD203157830048EC9F /* primeCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeCounterTests.swift; sourceTree = "<group>"; };
+		77D760FF203157830048EC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D7610820319B6B0048EC9F /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		77D7610A2031A0560048EC9F /* PrimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCounter.swift; sourceTree = "<group>"; };
+		77D7610C2031DC0B0048EC9F /* ComputeOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeOperation.swift; sourceTree = "<group>"; };
+		77D7610E2031E6030048EC9F /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D760E2203157830048EC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D760F6203157830048EC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D760DC203157820048EC9F = {
+			isa = PBXGroup;
+			children = (
+				77D760E7203157830048EC9F /* primeCounter */,
+				77D760FC203157830048EC9F /* primeCounterTests */,
+				77D760E6203157830048EC9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77D760E6203157830048EC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D760E5203157830048EC9F /* primeCounter.app */,
+				77D760F9203157830048EC9F /* primeCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D760E7203157830048EC9F /* primeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				77D760E8203157830048EC9F /* AppDelegate.swift */,
+				77D760EC203157830048EC9F /* Main.storyboard */,
+				77D7610820319B6B0048EC9F /* ConfigurationViewController.swift */,
+				77D7610E2031E6030048EC9F /* ResultTableViewController.swift */,
+				77D7610A2031A0560048EC9F /* PrimeCounter.swift */,
+				77D7610C2031DC0B0048EC9F /* ComputeOperation.swift */,
+				77D760EF203157830048EC9F /* Assets.xcassets */,
+				77D760F1203157830048EC9F /* LaunchScreen.storyboard */,
+				77D760F4203157830048EC9F /* Info.plist */,
+			);
+			path = primeCounter;
+			sourceTree = "<group>";
+		};
+		77D760FC203157830048EC9F /* primeCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				77D760FD203157830048EC9F /* primeCounterTests.swift */,
+				77D760FF203157830048EC9F /* Info.plist */,
+			);
+			path = primeCounterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D760E4203157830048EC9F /* primeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D76102203157830048EC9F /* Build configuration list for PBXNativeTarget "primeCounter" */;
+			buildPhases = (
+				77D760E1203157830048EC9F /* Sources */,
+				77D760E2203157830048EC9F /* Frameworks */,
+				77D760E3203157830048EC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = primeCounter;
+			productName = primeCounter;
+			productReference = 77D760E5203157830048EC9F /* primeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D760F8203157830048EC9F /* primeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D76105203157830048EC9F /* Build configuration list for PBXNativeTarget "primeCounterTests" */;
+			buildPhases = (
+				77D760F5203157830048EC9F /* Sources */,
+				77D760F6203157830048EC9F /* Frameworks */,
+				77D760F7203157830048EC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D760FB203157830048EC9F /* PBXTargetDependency */,
+			);
+			name = primeCounterTests;
+			productName = primeCounterTests;
+			productReference = 77D760F9203157830048EC9F /* primeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D760DD203157820048EC9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tianli;
+				TargetAttributes = {
+					77D760E4203157830048EC9F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					77D760F8203157830048EC9F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77D760E4203157830048EC9F;
+					};
+				};
+			};
+			buildConfigurationList = 77D760E0203157830048EC9F /* Build configuration list for PBXProject "primeCounter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77D760DC203157820048EC9F;
+			productRefGroup = 77D760E6203157830048EC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D760E4203157830048EC9F /* primeCounter */,
+				77D760F8203157830048EC9F /* primeCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D760E3203157830048EC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D760F3203157830048EC9F /* LaunchScreen.storyboard in Resources */,
+				77D760F0203157830048EC9F /* Assets.xcassets in Resources */,
+				77D760EE203157830048EC9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D760F7203157830048EC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D760E1203157830048EC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D760E9203157830048EC9F /* AppDelegate.swift in Sources */,
+				77D7610920319B6B0048EC9F /* ConfigurationViewController.swift in Sources */,
+				77D7610F2031E6030048EC9F /* ResultTableViewController.swift in Sources */,
+				77D7610B2031A0560048EC9F /* PrimeCounter.swift in Sources */,
+				77D7610D2031DC0B0048EC9F /* ComputeOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D760F5203157830048EC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D760FE203157830048EC9F /* primeCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77D760FB203157830048EC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D760E4203157830048EC9F /* primeCounter */;
+			targetProxy = 77D760FA203157830048EC9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77D760EC203157830048EC9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D760ED203157830048EC9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77D760F1203157830048EC9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D760F2203157830048EC9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D76100203157830048EC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77D76101203157830048EC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D76103203157830048EC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K8NS7DJ77;
+				INFOPLIST_FILE = primeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianli.primeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77D76104203157830048EC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K8NS7DJ77;
+				INFOPLIST_FILE = primeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianli.primeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77D76106203157830048EC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JS94RX7WS;
+				INFOPLIST_FILE = primeCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianli.primeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/primeCounter.app/primeCounter";
+			};
+			name = Debug;
+		};
+		77D76107203157830048EC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JS94RX7WS;
+				INFOPLIST_FILE = primeCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianli.primeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/primeCounter.app/primeCounter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D760E0203157830048EC9F /* Build configuration list for PBXProject "primeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D76100203157830048EC9F /* Debug */,
+				77D76101203157830048EC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D76102203157830048EC9F /* Build configuration list for PBXNativeTarget "primeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D76103203157830048EC9F /* Debug */,
+				77D76104203157830048EC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D76105203157830048EC9F /* Build configuration list for PBXNativeTarget "primeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D76106203157830048EC9F /* Debug */,
+				77D76107203157830048EC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D760DD203157820048EC9F /* Project object */;
+}
