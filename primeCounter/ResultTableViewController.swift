@@ -12,8 +12,25 @@ class ResultTableViewController: UIViewController {
     
     var resultArray: [Int64] = []
     var primeCounter: PrimeCounter?
+    
     @IBOutlet var tableView: UITableView!
     
+    @IBOutlet var controlBtn: UIBarButtonItem!
+    
+    @IBAction func onTapControlBtn(_ sender: UIBarButtonItem) {
+        if primeCounter != nil {
+            if primeCounter!.isPaused {
+                controlBtn.title = "Resume"
+                primeCounter!.resume()
+            }else{
+                controlBtn.title = "Pause"
+                primeCounter!.pause()
+                
+            }
+            
+        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,7 +44,7 @@ class ResultTableViewController: UIViewController {
         super.viewWillDisappear(animated)
         stopPrimeCounter()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
@@ -40,7 +57,7 @@ class ResultTableViewController: UIViewController {
             primeCounter!.stop()
         }
     }
-
+    
 }
 
 extension ResultTableViewController: PrimeCounterDelegate {

@@ -96,7 +96,7 @@
             </objects>
             <point key="canvasLocation" x="476" y="132.68365817091455"/>
         </scene>
-        <!--Title-->
+        <!--Result-->
         <scene sceneID="frp-rk-mVB">
             <objects>
                 <viewController id="iyc-sz-OaV" customClass="ResultTableViewController" customModule="primeCounter" customModuleProvider="target" sceneMemberID="viewController">
@@ -132,8 +132,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MJH-PX-XEm"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="ZsJ-ya-Wen"/>
+                    <navigationItem key="navigationItem" title="Result" id="ZsJ-ya-Wen">
+                        <barButtonItem key="rightBarButtonItem" title="Pause" id="Ylm-OE-TaZ">
+                            <connections>
+                                <action selector="onTapControlBtn:" destination="iyc-sz-OaV" id="RPG-3C-6Di"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="controlBtn" destination="Ylm-OE-TaZ" id="2dt-ow-vyv"/>
                         <outlet property="tableView" destination="loC-SI-ili" id="RTZ-k2-pdj"/>
                     </connections>
                 </viewController>

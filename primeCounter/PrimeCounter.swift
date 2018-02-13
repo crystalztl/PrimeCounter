@@ -15,7 +15,7 @@ struct PrimeCounter {
     private let start: Int64
     private let end: Int64
     private let queue = OperationQueue()
-
+    var isPaused = false
     private let threads: Int
     var delegate: PrimeCounterDelegate? = nil
     
@@ -46,12 +46,15 @@ struct PrimeCounter {
         
     }
     
-    func pause() {
+    mutating func pause() {
         print("operation is paused.")
+        isPaused = true
         queue.isSuspended = true
     }
-    func resume() {
+    
+    mutating func resume() {
         print("operation is resumed.")
+        isPaused = false
         queue.isSuspended = false
     }
     
